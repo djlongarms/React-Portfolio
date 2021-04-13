@@ -1,0 +1,18 @@
+.container {
+  text-align: center;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+.row {
+  background-image: url("https://www.designbolts.com/wp-content/uploads/2013/02/Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg");
+  text-align: center;
+}
+
+.col {
+  border: 2px solid black;
+}
+
+#image {
+  width: 80%;
+}

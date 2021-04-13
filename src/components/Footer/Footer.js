@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <footer className="footer">
-      This is a Footer!
+      This Portfolio was made as part of an assignment for my UCI Coding Bootcamp!
     </footer>
   )
 }

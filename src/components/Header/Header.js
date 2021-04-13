@@ -18,7 +18,7 @@ const Header = () => {
   const toggle = () => setIsOpen(!isOpen)
 
   return (
-    <Navbar color="light" light expand="md">
+    <Navbar className="header" light expand="md">
       <NavbarBrand>
         <Link className="navLink" exact to="/">
           About Nick
@@ -42,7 +42,7 @@ const Header = () => {
             </NavLink>
           </NavItem>
         </Nav>
-        <NavbarText>Nick Palmer's Portfolio</NavbarText>
+        <NavbarText className="white">Nick Palmer's Portfolio</NavbarText>
       </Collapse>
     </Navbar>
   )

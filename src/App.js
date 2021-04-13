@@ -8,11 +8,12 @@ import Footer from './components/Footer'
 import Portfolio from './pages/Portfolio'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
+import './App.css'
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className="body">
         <Header />
         <Switch>
           <Route exact path='/'>
