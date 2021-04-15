@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <Navbar className="header" light expand="md">
       <NavbarBrand>
-        <Link className="navLink" exact to="react-portfolio/">
+        <Link className="navLink" exact to="/react-portfolio/">
           About Nick
         </Link>
       </NavbarBrand>
@@ -29,14 +29,14 @@ const Header = () => {
         <Nav className="mr-auto" navbar>
           <NavItem>
             <NavLink>
-              <Link className="navLink" to="react-portfolio/portfolio">
+              <Link className="navLink" to="/react-portfolio/portfolio">
                 Portfolio
               </Link>
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink>
-              <Link className="navLink" to="react-portfolio/contact">
+              <Link className="navLink" to="/react-portfolio/contact">
                 Contact Me
               </Link>
             </NavLink>
