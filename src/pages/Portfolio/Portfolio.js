@@ -6,6 +6,7 @@ import FitnessTracker from '../../imgs/fitness-tracker.png'
 import CodeQuiz from '../../imgs/code-quiz-screenshot.png'
 import NoteTaker from '../../imgs/Note-Taker-Screenshot.png'
 import PasswordGenerator from '../../imgs/password-generator.png'
+import CDKPipeline from '../../imgs/CDK Logo.png'
 
 const Portfolio = () => {
   const projects = [
@@ -45,6 +46,12 @@ const Portfolio = () => {
       desc: 'A password generator that makes a random password based on user desire. I made the javascript component of this app as part of a class assignment!',
       alt: 'A password generator',
       link: 'https://djlongarms.github.io/Password-Generator/'
+    }, {
+      image: CDKPipeline,
+      title: 'CDK Pipeline',
+      desc: 'A tool for AWS CDK projects that automates pipeline creation for resource deployment over multiple stages, environments, and/or accounts.',
+      alt: 'An Amazon Web Services Cloud Development Kit logo',
+      link: 'https://github.com/djlongarms/AWS_CDK_Pipeline/'
     }
   ]
 
@@ -59,6 +66,9 @@ const Portfolio = () => {
         <Project image={projects[3].image} title={projects[3].title} desc={projects[3].desc} alt={projects[3].alt} link={projects[3].link} />
         <Project image={projects[4].image} title={projects[4].title} desc={projects[4].desc} alt={projects[4].alt} link={projects[4].link} />
         <Project image={projects[5].image} title={projects[5].title} desc={projects[5].desc} alt={projects[5].alt} link={projects[5].link} />
+      </Row>
+      <Row>
+      <Project image={projects[6].image} alt={projects[6].alt} title={projects[6].title} desc={projects[6].desc} link={projects[6].link} />
       </Row>
     </Container>
   )
