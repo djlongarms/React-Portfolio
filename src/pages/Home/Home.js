@@ -26,7 +26,7 @@ const Home = () => {
             Now, you may be wondering where you've heard that name before. Well, unless you've spent an inordinate amount of time watching amateur theater productions based in and around Orange County, you're definitely thinking of someone else!
           </h5>
           <h5>
-            I'm an aspiring programmer currently participating in a Boot Camp through UCI, working hard to expand my knowledge of programming skills! I already have a few bits of programming under my belt, but this portfolio will start as a repository for the projects built in my class. Check back as I update this site with future builds!
+            I'm a software engineer looking for a full time position working as a backend developer somewhere that I can grow and learn! My skills include Python, Java, HTML, CSS, JavaScript, and many more! I've also done work with AWS, I've achieved the AWS Cloud Practitioner and AWS Developer - Associate certifications!
           </h5>
         </Col>
       </Row>
